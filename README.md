@@ -12,10 +12,11 @@
   <p> 1订单表[orderId,userId,productId,price] order_01, order_02,order_03......</p>
   <p> 2 用户_订单映射表[userId,orderId](分表产品产生业务表) user_order_01,user_order_02,user_order_03...... </p>
   <p> 3 商品_订单映射表[productId,orderId](分表产生业务表) product_id_01,product_id_02,product_id_03......</p>
- #### 产品需求
-   `用户订单列表查询(根据用户id取模等方式, 取出用户对应的用户_订单表所在的表)`
-  `商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)`
-   `获取所有订单列表(union多表)   `
+<pre>产品需求
+   用户订单列表查询(根据用户id取模等方式, 取出用户对应的用户_订单表所在的表)
+  商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)
+   获取所有订单列表(union多表)  
+</pre>
  #### id分表规则
    <pre>
           "table_".id%n; //n 表数量</p>

@@ -19,7 +19,7 @@
 </pre>
 <p>4 id分表规则</p>
 <pre>
-"table_".id%n; //n 表数量</p>
+"table_".id%n; //n 表数量
 $str = crc32($id)
 if ($str < 0) {
  return "table_".substr(abs($str),0,1)

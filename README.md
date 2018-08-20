@@ -26,6 +26,5 @@
              if ($str < 0) {
                 return "table_".substr(abs($str),0,1)
              }
-             return "table_".substr($str,0,2)
-      </pre>   
+             return "table_".substr($str,0,2) 
   ```

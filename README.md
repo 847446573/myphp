@@ -16,11 +16,11 @@
   <p> 5 商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)</p>
   <p> 6 获取所有订单列表(union多表)    </p>
 #### id分表规则
-```
+<pre>
        "table_".id%n; //n 表数量</p>
         $str = crc32($id)
         if ($str < 0) {
           return "table_".substr(abs($str),0,1)
         }
         return "table_".substr($str,0,2) 
-```
+</pre>

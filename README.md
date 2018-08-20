@@ -19,7 +19,7 @@
            2 商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)
            3 获取所有订单列表(union多表)
            
-  id分配表规则：1 "table_".id%100 <pre>
+  id分配表规则：<pre>1 "table_".id%n; //n 表数量
             2 $str = crc32($id)
              if ($str < 0) {
                 return "table_".substr(abs($str),0,1)

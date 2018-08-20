@@ -19,10 +19,10 @@
 </pre>
 #### id分表规则
 <pre>
-       "table_".id%n; //n 表数量</p>
-        $str = crc32($id)
-        if ($str < 0) {
-          return "table_".substr(abs($str),0,1)
-        }
-        return "table_".substr($str,0,2) 
+"table_".id%n; //n 表数量</p>
+$str = crc32($id)
+if ($str < 0) {
+ return "table_".substr(abs($str),0,1)
+}
+return "table_".substr($str,0,2) 
 </pre>

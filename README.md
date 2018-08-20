@@ -8,13 +8,13 @@
 ```
 ## 2 模仿java spring ,php mvc中加了一层，service ,service作各model的调用处理，c只负责if else 逻辑，通过php 魔术方法_set,_get实现参数传递
 ## 3 mysql分表 策略
-  > * 场景一：订单表，用户表，商品表 分表策略
-  >> 订单表[orderId,userId,productId,price] order_01, order_02,order_03......
-  >> 用户_订单映射表[userId,orderId](分表产品产生业务表) user_order_01,user_order_02,user_order_03...... 
-  >> 商品_订单映射表[productId,orderId](分表产生业务表) product_id_01,product_id_02,product_id_03......
-  >>> 1 用户订单列表查询(根据用户id取模等方式, 取出用户对应的用户_订单表所在的表)
-  >>> 2 商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)
-  >>> 3 获取所有订单列表(union多表)    
+### 场景一：订单表，用户表，商品表 分表策略
+  <p>订单表[orderId,userId,productId,price] order_01, order_02,order_03......</p>
+  <p> 用户_订单映射表[userId,orderId](分表产品产生业务表) user_order_01,user_order_02,user_order_03...... </p>
+  <p> 商品_订单映射表[productId,orderId](分表产生业务表) product_id_01,product_id_02,product_id_03......</p>
+  <p>1 用户订单列表查询(根据用户id取模等方式, 取出用户对应的用户_订单表所在的表)</p>
+  <p>2 商品订单列表查询(根据商品id取模等方式,取出商品对应的商品_订单表所在的表)</p>
+  <p>3 获取所有订单列表(union多表)    </p>
   ```
       1 "table_".id%n; //n 表数量</p>
       2 $str = crc32($id)

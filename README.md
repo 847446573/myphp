@@ -30,6 +30,6 @@
 </pre>
 
 ## 4 php 函数
-### rang 
-### shuffle
-### str_shuffle
+### [rang](http://www.w3school.com.cn/php/func_array_range.asp) 
+### [shuffle](http://www.w3school.com.cn/php/func_array_shuffle.asp)
+### [str_shuffle](http://www.w3school.com.cn/php/func_string_str_shuffle.asp)

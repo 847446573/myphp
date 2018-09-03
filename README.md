@@ -28,3 +28,8 @@
  }
  return "table_".substr($str,0,2) 
 </pre>
+
+## 4 php 函数
+### rang 
+### shuffle
+### str_shuffle

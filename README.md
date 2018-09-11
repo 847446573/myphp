@@ -33,3 +33,4 @@
 ### [rang](http://www.w3school.com.cn/php/func_array_range.asp) 
 ### [shuffle](http://www.w3school.com.cn/php/func_array_shuffle.asp)
 ### [str_shuffle](http://www.w3school.com.cn/php/func_string_str_shuffle.asp)
+### [use 关键字用法详解](https://blog.csdn.net/wang740209668/article/details/52118289)

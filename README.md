@@ -35,4 +35,5 @@
 ### [str_shuffle](http://www.w3school.com.cn/php/func_string_str_shuffle.asp)
 ### [use 关键字用法详解](https://blog.csdn.net/wang740209668/article/details/52118289)
 ### [abstract](https://www.cnblogs.com/timelesszhuang/p/4720241.html)
-###[clone]
+### [clone]()
+### [new static()/new self() 区别](https://www.cnblogs.com/shizqiang/p/6277091.html)

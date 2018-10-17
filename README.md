@@ -48,3 +48,4 @@
 多个实现 interface 或者继承 abstract 的具体产品类；
 </pre>
 #### 实例代码(Src\Service\Gc)
+#### 缺点：违反开放封闭原则，对扩展开发，对修改封闭

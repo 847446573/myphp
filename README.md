@@ -49,3 +49,16 @@
 </pre>
 #### 实例代码(Src\Service\Gc)
 #### 缺点：违反开放封闭原则，对扩展开发，对修改封闭
+
+### (二) 工厂方法模式 
+#### 应用场景：要实例话的对象充满不确定性可能会改变的时候；要创建的对象的数目和类型是未知的；
+#### 结构: 
+<pre>
+1个 interface 或者 abstract 产品父类；
+多个实现 interface 或者继承 abstract 的具体产品类；
+
+1个 interface 或者 abstract 工厂父类；
+多个实现 interface 或者继承 abstract 的具体工厂类；
+</pre>
+#### 实例代码(Src\Service\Gcff)
+#### 缺点：代码重复

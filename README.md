@@ -37,3 +37,13 @@
 ### [abstract](https://www.cnblogs.com/timelesszhuang/p/4720241.html)
 ### [clone]()
 ### [new static()/new self() 区别](https://www.cnblogs.com/shizqiang/p/6277091.html)
+
+
+## 5 设计模式
+### 工厂模式
+#### 应用场景：在不确定有多少种操作的时候；
+#### 结构
+<pre>1个工厂；
+1个 interface 或者 abstract 产品父类；
+多个实现 interface 或者继承 abstract 的具体产品类；
+</pre>

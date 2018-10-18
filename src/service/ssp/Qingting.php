@@ -1,5 +1,5 @@
 <?php
-namespace Src\Service\ssp;
+namespace Src\Service\Ssp;
 
 /**
  * 蜻蜓ssp接入

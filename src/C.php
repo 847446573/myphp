@@ -3,12 +3,16 @@ namespace Src;
 use \Src\Service\Cservice;
 use Src\Service\Ssp\Qingting;
 use Src\Service\Ssp\Funadx;
+use Src\Service\Ms;
+use Src\Service\Gc\Factory;
+use Src\Service\Gcff\AddFactory;
+use Src\Service\Gcff\SubFactory;
+use Src\Service\Cxgc\CalFactory;
 class C
 {
     public $cservice = null;
     public function __construct()
     {
-
         //require_once "./service/Cservice.php";
         spl_autoload_register(function ($className) {
             require_once dirname($_SERVER['SCRIPT_FILENAME']) . '//..//' . str_replace('\\', '/', $className) . '.php';
@@ -33,7 +37,6 @@ class C
      *
      */
     public function sspDoing () {
-
         //ssp媒体蜻蜓
         $qt = new Qingting([],[]);
         echo $qt->uploadAdOrgInfo();
@@ -44,10 +47,67 @@ class C
         exit;
     }
 
+    /**
+     * 工厂模式测试
+     */
+    public function test1 () {
+        $factory1 = new Factory();
+        //$operate = $factory1->operate("+");
+        $operate = $factory1->operate("-");
+        $operate->setA(1);
+        $operate->setB(1);
+        echo $operate->getResult().":简单工厂模式测试<br/>";
+
+    }
+
+    /**
+     *
+     * 工厂方法模式测试
+     */
+    public function test2 () {
+        $addFactory = new AddFactory();
+        $addPro = $addFactory->operate();
+        $addPro->setA(2);
+        $addPro->setB(1);
+        echo $addPro->getResult().":工厂方法模式测试<br/>";
+
+        $addFactory = new SubFactory();
+        $addPro = $addFactory->operate();
+        $addPro->setA(2);
+        $addPro->setB(1);
+        echo $addPro->getResult().":工厂方法模式测试<br/>";
+
+    }
+
+    /**
+     * 抽象工厂测试
+     *
+     *
+     */
+     public function test3 () {
+         $calFactory = new CalFactory();
+         $addPro = $calFactory->addPro();
+         $addPro->setA(22);
+         $addPro->setB(33);
+         echo $addPro->getResult().":抽象工厂模式测试<br/>";
+
+
+         $calFactory = new CalFactory();
+         $addPro = $calFactory->subPro();
+         $addPro->setA(44);
+         $addPro->setB(33);
+         echo $addPro->getResult().":抽象工厂模式测试<br/>";
+
+     }
 
 
 
 }
 
 $c = new c();
-$c->sspDoing();
+//工厂模式测试
+$c->test1();
+//工厂方法模式测试
+$c->test2();
+//抽象工厂模式测试
+$c->test3();

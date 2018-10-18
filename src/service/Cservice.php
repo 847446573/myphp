@@ -15,9 +15,7 @@ class Cservice extends Service
 
     public function index () {
         $result = $this->attributes;
-        echo "<pre>";
-        print_R($result);
-        exit;
+       
     }
 
 

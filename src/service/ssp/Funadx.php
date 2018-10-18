@@ -1,5 +1,5 @@
 <?php
-namespace Src\Service\ssp;
+namespace Src\Service\Ssp;
 
 /**
  * 风行ssp 接入

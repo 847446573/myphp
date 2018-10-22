@@ -33,6 +33,7 @@
 ### [abstract](https://www.cnblogs.com/timelesszhuang/p/4720241.html)
 ### [clone]()
 ### [new static()/new self() 区别](https://www.cnblogs.com/shizqiang/p/6277091.html)
+### [抽象类、接口的区别](https://blog.csdn.net/fanteathy/article/details/7309966)
 
 
 ## 5 设计模式

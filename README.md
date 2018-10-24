@@ -25,7 +25,7 @@
  return "table_".substr($str,0,2) 
 </pre>
 
-## 4 php 函数
+## 4 php 函数、名词定义
 ### [rang](http://www.w3school.com.cn/php/func_array_range.asp) 
 ### [shuffle](http://www.w3school.com.cn/php/func_array_shuffle.asp)
 ### [str_shuffle](http://www.w3school.com.cn/php/func_string_str_shuffle.asp)

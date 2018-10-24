@@ -34,6 +34,8 @@
 ### [clone]()
 ### [new static()/new self() 区别](https://www.cnblogs.com/shizqiang/p/6277091.html)
 ### [抽象类、接口的区别](https://blog.csdn.net/fanteathy/article/details/7309966)
+### [反射](http://php.net/manual/zh/book.reflection.php)
+### [反射类与实例化类的区别](https://segmentfault.com/q/1010000010809844?sort=created)
 
 
 ## 5 设计模式
@@ -73,3 +75,17 @@
 </pre>
 #### 实例代码(Src\Service\Cxgc)
 #### 描述：工厂方法模式诞生了好多工厂，每个产品创建一个工厂，其实有些产品，完全属于一个工厂，这样抽象工厂模式较工厂方法模式就更为合理了，关键点在于，这几个产品是否同属于这个工厂，换句话说，这个工厂能否同时生产这些商品，比如鞋子和帽子，肯定是不同的工厂，运动鞋和帆布鞋是同一个工厂，只是品类不一
+
+
+### (四) 使用反射优化抽象工厂模式 
+#### 应用场景：要实例话的对象充满不确定性可能会改变的时候；要创建的对象的数目和类型是未知的；
+#### 结构: 
+<pre>
+多个或1个 interface 或者 abstract 产品父类；
+多个实现 interface 或者继承 abstract 的具体产品类；
+
+1个工厂
+工厂里有多个方法，实现不同产品，具体功能
+</pre>
+#### 实例代码(Src\Service\reflection)->待写
+####

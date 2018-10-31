@@ -94,7 +94,10 @@
 #### 应用场景：某场景，需要多次实例化类一个类，使用 clone 对象来减少 new 对象的开销
 #### 结构：function _clone () {.......}
 #### 实例化的执行类的构造函数，clone 不执行
-#### 实例代码 (Src\Service\clonems)
+#### 实例代码 (Src\Service\clonems)--待写
+
+
+
 
 
 

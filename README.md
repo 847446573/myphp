@@ -87,5 +87,12 @@
 1个工厂
 工厂里有多个方法，实现不同产品，具体功能
 </pre>
-#### 实例代码(Src\Service\reflection)->待写
+#### 实例代码(Src\Service\reflection)
 ####
+
+### (五)原型模式
+#### 应用场景：某场景，需要多次实例化类一个类，使用 clone 对象来减少 new 对象的开销
+#### 结构：function _clone () {.......}
+#### 实例代码 (Src\Service\clonems)
+
+

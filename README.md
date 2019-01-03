@@ -39,6 +39,7 @@
 ### [php 信息加密技术](https://www.cnblogs.com/nixi8/p/4926689.html) 
 ### [PHP openssl加密扩展使用总结](https://www.cnblogs.com/huyihao/p/6082765.html)
 ### [php oenssl 函数](http://www.php.net/manual/zh/ref.openssl.php)
+### [base64_encode/base64_decode 存在的意义](https://www.cnblogs.com/kenshinobiy/p/4421842.html)
 
 ## 5 设计模式
 ### (一) 简单工厂模式 

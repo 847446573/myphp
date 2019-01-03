@@ -36,7 +36,8 @@
 ### [抽象类、接口的区别](https://blog.csdn.net/fanteathy/article/details/7309966)
 ### [反射](http://php.net/manual/zh/book.reflection.php)
 ### [反射类与实例化类的区别](https://segmentfault.com/q/1010000010809844?sort=created)
-### [php 信息加密技术](https://www.cnblogs.com/nixi8/p/4926689.html)
+### [php 信息加密技术](https://www.cnblogs.com/nixi8/p/4926689.html) 
+### [PHP openssl加密扩展使用总结](https://www.cnblogs.com/huyihao/p/6082765.html)
 
 
 ## 5 设计模式

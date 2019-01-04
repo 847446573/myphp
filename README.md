@@ -41,7 +41,10 @@
 ### [踩坑-php RSA加密传输代码示例](https://www.cnblogs.com/firstForEver/p/5803940.html)
 ### [php oenssl 函数](http://www.php.net/manual/zh/ref.openssl.php)
 ### [base64_encode/base64_decode 存在的意义](https://www.cnblogs.com/kenshinobiy/p/4421842.html)
-
+### [php中urldecode()和urlencode()起什么作用？](https://blog.csdn.net/Aaroun/article/details/80859247)
+<pre>
+urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字符都将被替换成百分号（%）后跟两位十六进制数，空格则编码为加号（+）。
+</pre>
 ## 5 设计模式
 ### (一) 简单工厂模式 
 #### 应用场景：在不确定有多少种操作的时候；

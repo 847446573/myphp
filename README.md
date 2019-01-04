@@ -38,6 +38,7 @@
 ### [反射类与实例化类的区别](https://segmentfault.com/q/1010000010809844?sort=created)
 ### [php 信息加密技术](https://www.cnblogs.com/nixi8/p/4926689.html) 
 ### [PHP openssl加密扩展使用总结](https://www.cnblogs.com/huyihao/p/6082765.html)
+### [踩坑-php RSA加密传输代码示例](https://www.cnblogs.com/firstForEver/p/5803940.html)
 ### [php oenssl 函数](http://www.php.net/manual/zh/ref.openssl.php)
 ### [base64_encode/base64_decode 存在的意义](https://www.cnblogs.com/kenshinobiy/p/4421842.html)
 

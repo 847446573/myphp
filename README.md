@@ -46,6 +46,7 @@
 urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字符都将被替换成百分号（%）后跟两位十六进制数，空格则编码为加号（+）。
 </pre>
 ### [负载均衡](https://blog.csdn.net/github_37515779/article/details/79953788)
+### [负载均衡session共享方案](https://www.cnblogs.com/yangliheng/p/5852494.html)
 ## 5 设计模式
 ### (一) 简单工厂模式 
 #### 应用场景：在不确定有多少种操作的时候；

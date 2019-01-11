@@ -49,6 +49,7 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 ### [负载均衡session共享方案](https://www.cnblogs.com/yangliheng/p/5852494.html)
 ### [高并发下mysql 脏数据解决方案](http://www.php.cn/mysql-tutorials-369221.html)
 ### [MySQL 中的共享锁和排他锁的用法](http://www.php.cn/mysql-tutorials-360687.html)
+### [为什么要采用注册树模式](https://www.cnblogs.com/DeanChopper/p/4767181.html)
 ## 5 设计模式
 ### (一) 简单工厂模式 
 #### 应用场景：在不确定有多少种操作的时候；

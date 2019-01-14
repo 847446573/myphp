@@ -42,6 +42,7 @@
 ### [php oenssl 函数](http://www.php.net/manual/zh/ref.openssl.php)
 ### [base64_encode/base64_decode 存在的意义](https://www.cnblogs.com/kenshinobiy/p/4421842.html)
 ### [php中urldecode()和urlencode()起什么作用？](https://blog.csdn.net/Aaroun/article/details/80859247)
+### [instanceof 使用](https://www.cnblogs.com/tengjian/p/7999107.html)
 <pre>
 urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字符都将被替换成百分号（%）后跟两位十六进制数，空格则编码为加号（+）。
 </pre>

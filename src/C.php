@@ -1,6 +1,9 @@
 <?php
 namespace Src;
 use \Src\Service\Cservice;
+use Src\Service\Observer\EventFs1;
+use Src\Service\Observer\ObserverFs1;
+use Src\Service\Observer\ObserverFs2;
 use Src\Service\Ssp\Qingting;
 use Src\Service\Ssp\Funadx;
 use Src\Service\Ms;
@@ -8,6 +11,7 @@ use Src\Service\Gc\Factory;
 use Src\Service\Gcff\AddFactory;
 use Src\Service\Gcff\SubFactory;
 use Src\Service\Cxgc\CalFactory;
+use Src\Service\Refection\Factory as Rfactory;
 class C
 {
     public $cservice = null;
@@ -100,10 +104,38 @@ class C
 
      }
 
+     /**
+      *
+      * 反射优化抽象工厂模式测试
+      */
+     public function test4 () {
+        $factory = new Rfactory();
+        $pro = $factory->addFunction();
+        $pro->setA(2);
+        $pro->setB(2);
+        echo $pro->getResult().":抽象工厂模式测试<br/>";
+
+
+     }
+
+     /*
+      * 观察者模式
+      * */
+     public function test5 () {
+         $fs1 = new EventFs1();
+         $fs1->addObserver(new ObserverFs1());
+         $fs1->addObserver(new ObserverFs2());
+         $fs1->notice();
+
+     }
+
 
 
 }
+$fileAttr = pathinfo("http://test.resbj.truegrowth.cn/img/d885a95e1c24184752666a3384aba624.jpg", PATHINFO_EXTENSION);
+echo $fileAttr;
 
+echo "<pre>";
 $c = new c();
 //工厂模式测试
 $c->test1();
@@ -111,3 +143,8 @@ $c->test1();
 $c->test2();
 //抽象工厂模式测试
 $c->test3();
+//反射优化抽象工厂模式测试
+$c->test4();
+//观察者模式测试
+$c->test5();
+

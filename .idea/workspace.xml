@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3046fa6c-7a0b-4e5a-84e5-4df849f3ac56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/service/adapter/Target.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/adapter/adapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/adapter/adx.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/adapter/fm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/adapter/outer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/observer/Event.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/observer/EventFs1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/observer/Observer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/observer/ObserverFs1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/observer/ObserverFs2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/refection/Action.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/refection/AddResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/refection/Factory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/refection/SubResult.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/register/Register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/C.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/C.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/observer/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/observer/Event.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,15 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Factory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/refection/Factory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="C.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/C.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,26 +66,8 @@
       <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/observer/Event.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventFs1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/observer/EventFs1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Service.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Service.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="110">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -120,6 +81,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AddResult.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/refection/AddResult.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ObserverFs1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/observer/ObserverFs1.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,11 +99,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObserverFs2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ObserverFs2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/observer/ObserverFs2.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/register/Register.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="560">
+                <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -151,8 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/service/Service.php" />
-        <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/src/service/Cservice.php" />
         <option value="$PROJECT_DIR$/src/service/qitbase.php" />
         <option value="$PROJECT_DIR$/src/service/app/Funadx.php" />
@@ -199,9 +188,11 @@
         <option value="$PROJECT_DIR$/src/service/observer/Event" />
         <option value="$PROJECT_DIR$/src/C.php" />
         <option value="$PROJECT_DIR$/src/service/observer/EventFs1.php" />
-        <option value="$PROJECT_DIR$/src/service/observer/Event.php" />
         <option value="$PROJECT_DIR$/src/service/observer/ObserverFs1.php" />
         <option value="$PROJECT_DIR$/src/service/observer/ObserverFs2.php" />
+        <option value="$PROJECT_DIR$/src/service/register/Register.php" />
+        <option value="$PROJECT_DIR$/src/service/observer/Event.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -214,7 +205,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1910" />
     <option name="y" value="-10" />
     <option name="width" value="2580" />
@@ -244,13 +235,6 @@
               <item name="myphp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myphp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myphp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="gcff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myphp" type="b2602c69:ProjectViewProjectNode" />
@@ -325,18 +309,18 @@
       <workItem from="1544430148949" duration="897000" />
       <workItem from="1546504892668" duration="4637000" />
       <workItem from="1547113726345" duration="1250000" />
-      <workItem from="1547615843255" duration="2733000" />
+      <workItem from="1547615843255" duration="5699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101456000" />
+    <option name="totallyTimeSpent" value="104422000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="2064" height="1128" extended-state="0" />
+    <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11061061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13076152" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -369,20 +353,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/service/Cservice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/Service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/C.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -585,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/refection/AddResult.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/refection/SubResult.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -668,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/observer/Event.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/observer/Observer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -691,8 +647,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/observer/ObserverFs2.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/refection/AddResult.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/observer/Event.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/register/Register.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="560">
+            <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

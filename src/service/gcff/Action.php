@@ -8,6 +8,7 @@ namespace Src\Service\Gcff;
  * Time: 10:28
  */
 /**
+ *  工厂方法模式
  *  一个interface 或 abstract 抽象类
  *  多个实现interface 或 继承抽象类
  *  一个工厂

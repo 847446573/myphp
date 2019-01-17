@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3046fa6c-7a0b-4e5a-84e5-4df849f3ac56" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/service/adapter/adapter.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/adapter/adapter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/cxgc/Action.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/cxgc/Action.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,18 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AddFactory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/gcff/AddFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-              <folding>
-                <element signature="e#34#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Event.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/observer/Event.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,11 +36,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adapter.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="adapter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/adapter/adapter.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Action.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/service/cxgc/Action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="494">
+              <first_editor relative-caret-position="512">
                 <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
               </first_editor>
               <second_editor />
@@ -164,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/service/gcff/read.md" />
         <option value="$PROJECT_DIR$/src/service/cxgc/SubResult.php" />
         <option value="$PROJECT_DIR$/src/service/cxgc/AddResult.php" />
-        <option value="$PROJECT_DIR$/src/service/cxgc/Action.php" />
         <option value="$PROJECT_DIR$/src/service/cxgc/Factory.php" />
         <option value="$PROJECT_DIR$/src/service/cxgc/CalFactory.php" />
         <option value="$PROJECT_DIR$/src/service/refection/Action.php" />
@@ -187,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/service/observer/Event.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/service/adapter/adapter.php" />
+        <option value="$PROJECT_DIR$/src/service/cxgc/Action.php" />
       </list>
     </option>
   </component>
@@ -235,7 +232,7 @@
               <item name="myphp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+              <item name="cxgc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -303,12 +300,12 @@
       <workItem from="1544430148949" duration="897000" />
       <workItem from="1546504892668" duration="4637000" />
       <workItem from="1547113726345" duration="1250000" />
-      <workItem from="1547615843255" duration="6366000" />
+      <workItem from="1547615843255" duration="6480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105089000" />
+    <option name="totallyTimeSpent" value="105203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="2062" height="1126" extended-state="6" />
@@ -500,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/cxgc/Action.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/service/adapter/adx.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -656,7 +646,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="494">
+          <first_editor relative-caret-position="512">
             <caret line="136" column="11" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
           </first_editor>
           <second_editor />
@@ -674,6 +664,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/cxgc/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>

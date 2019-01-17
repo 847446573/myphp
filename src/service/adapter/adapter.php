@@ -1,6 +1,10 @@
 <?php
 namespace Src\Service\Adapter;
-
+/**
+ * Class Adapter
+ * @package Src\Service\Adapter
+ * 适配器模式
+ */
 
 class Adapter extends Target {
     private $adapter;

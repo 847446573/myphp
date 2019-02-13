@@ -52,6 +52,7 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 ### [MySQL 中的共享锁和排他锁的用法](http://www.php.cn/mysql-tutorials-360687.html)
 ### [为什么要采用注册树模式](https://www.cnblogs.com/DeanChopper/p/4767181.html)
 ### [MySQL常见的三种存储引擎 InnoDB、MyISAM、MEMORY](https://www.cnblogs.com/yuxiuyan/p/6511837.html)
+### [数据库设计三大范式](https://www.cnblogs.com/1906859953Lucas/p/8299959.ht)
 
 ## 5 设计模式
 ### (一) 简单工厂模式 

@@ -55,6 +55,7 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 ### [数据库设计三大范式](https://www.cnblogs.com/1906859953Lucas/p/8299959.html)
 ### [什么是缓存穿透，解决办法](https://blog.csdn.net/lzj3462144/article/details/78323589)
 ### [消息队列rabbitmq原理](https://www.cnblogs.com/vipstone/p/9275256.html)
+### [kafka原理](https://www.cnblogs.com/qingyunzong/p/9004509.html)
 
 ## 5 设计模式
 ### (一) 简单工厂模式 

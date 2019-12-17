@@ -59,6 +59,9 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 ### [kafka原理(https://www.jianshu.com/p/4bf007885116)](https://www.cnblogs.com/qingyunzong/p/9004509.html)
 ### [kafka多点复制机制](https://colobu.com/2017/11/02/kafka-replication/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
 ### [什么是分布式、以及存在的意义](https://mp.weixin.qq.com/s/aHge2nbvQa_XIgL3c7L-aA)
+### [swoole](https://www.jianshu.com/p/008d5702d01f)
+### [swoole 框架 swoft](https://www.jianshu.com/p/bc4ec0d8ef12?utm_source=oschina-app)
+
 
 ## 5 设计模式
 ### (一) 简单工厂模式 

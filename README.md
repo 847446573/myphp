@@ -57,6 +57,7 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 ### [什么是缓存穿透，解决办法](https://blog.csdn.net/lzj3462144/article/details/78323589)
 ### [消息队列rabbitmq原理](https://www.cnblogs.com/vipstone/p/9275256.html)
 ### [kafka原理(https://www.jianshu.com/p/4bf007885116)](https://www.cnblogs.com/qingyunzong/p/9004509.html)
+### [什么是分布式、以及存在的意义](https://mp.weixin.qq.com/s/aHge2nbvQa_XIgL3c7L-aA)
 
 ## 5 设计模式
 ### (一) 简单工厂模式 

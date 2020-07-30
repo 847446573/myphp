@@ -155,6 +155,9 @@ urlencode()编码：对字符串中除了 -_. 之外的所有非字母数字字�
 #### [服务容器](https://www.jianshu.com/p/e0583692521c)
 
 
+## [linux ]
+####[phpize](https://www.cnblogs.com/blange/p/11557450.html)
+
 
 
 
